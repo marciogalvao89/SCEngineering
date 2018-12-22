@@ -765,7 +765,7 @@ function sendButtonMessage(recipientId) {
 
 function sendWelcomemessage(recipientId) {
 	
-  var nameString = "" + firstName + " " + lastName + ",\r muito obrigado por contactar a SCEngineering - Reprogramação & Eletrónica Automóvel.\r Vamos responder o mais brevemente possível.\r Se pretender mais informações sobre aumento de potência, poderá visitar o nosso simulador de potência online. \r Se pretender mais informações sobre as nossas soluções de filtro de partículas, visite o nosso site dedicado. \r Para outras informações, por favor, indique o assunto e os dados do veículo. \r Cumprimentos,\r SCEngineering";
+  var nameString = "" + firstName + " " + lastName + ",\n muito obrigado por contactar a SCEngineering - Reprogramação & Eletrónica Automóvel.\n Vamos responder o mais brevemente possível.\n Se pretender mais informações sobre aumento de potência, poderá visitar o nosso simulador de potência online. \n Se pretender mais informações sobre as nossas soluções de filtro de partículas, visite o nosso site dedicado. \n Para outras informações, por favor, indique o assunto e os dados do veículo. \n Cumprimentos,\n SCEngineering";
   var messageData = {
     recipient: {
       id: recipientId
