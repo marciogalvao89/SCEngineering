@@ -752,7 +752,7 @@ function sendButtonMessage(recipientId) {
 		 	{
             "type": "web_url",
             "title": "Email",
-            "url": "mailto:geral@scengineering.net"
+            "url": "http://scengineering.net/centralinas/contactos/"
           	}
 	  ]
         }
