@@ -742,7 +742,7 @@ function sendButtonMessage(recipientId) {
         type: "template",
         payload: {
           template_type: "button",
-          text: "Informações & Marcações",
+          text: "Informações & Contactos",
           buttons:[
 		{
             "type": "phone_number",
